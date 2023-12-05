@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>问卷调查</title>
+	<link rel="stylesheet" href="问卷调查.css">
+</head>
+<body>
+	<div>
+		<h1>一份关于原神的问卷</h1>
+		<hr width="597px" color="black"/>
+		<form class="biaodan">
+			<ol>
+				<li>请选择今天的日期</li>
+				<input type="date"/>
+				<br />
+				<br />
+				<li>您的性别是?</li>
+				<label><input type="radio" name="sex" checked="checked"/>男</label><br>
+				<label><input type="radio"name="sex">女</label><br>
+				<br>
+				<li>您的年龄是？</li>
+				<label ><input type="radio"name="age" checked="checked">小于18岁</label><br>
+				<label ><input type="radio"name="age">18岁到25岁之间</label><br>
+				<label ><input type="radio"name="age">25岁到35岁之间</label><br>
+				<label ><input type="radio"name="age">35到55岁之间</label><br>
+				<label ><input type="radio"name="age">55岁以上</label><br>
+				<br>
+				<li>您接触原神多长时间了？</li>
+				<label for=""><input type="radio">从未接触过</label><br>
+				<label for=""><input type="radio" checked="checked">一年左右/label><br>
+				<label for=""><input type="radio">两年左右</label><br>
+				<label for=""><input type="radio">三年及以上</label><br>
+				<br>
+				<li>您对原神的喜爱程度？</li>
+				<label for=""><input type="radio"name="love"></label>不喜欢<br>
+				<label for=""><input type="radio"name="love" checked="checked"></label>一般<br>
+				<label for=""><input type="radio"name="love"></label>喜欢<br>
+				<br>
+				<li>您是从哪里了解原神的？</li>
+				<label for=""><input type="checkbox"name="ways">抖音</label><br>
+				<label for=""><input type="checkbox"name="ways">哔哩哔哩</label><br>
+				<label for=""><input type="checkbox"name="ways"></label>微博<br>
+				<label for=""><input type="checkbox"name="ways"></label>其他<br>
+				<br>
+                <li>您最喜欢原神的哪个国家？</li>
+                <label for=""><input type="radio"name="country">蒙德</label><br>
+                <label for=""><input type="radio"name="country">璃月</label><br>
+                <label for=""><input type="radio"name="country">稻妻</label><br>
+                <label for=""><input type="radio"name="country">须弥</label><br>
+                <label for=""><input type="radio"name="country"></label>枫丹<br>
+                <br>
+				<li>您最喜欢原神中的那段剧情</li>
+				<label for=""><input type="radio"name="juqin">蒙德</label><br>
+                <label for=""><input type="radio"name="juqin">璃月</label><br>
+                <label for=""><input type="radio"name="juqin">稻妻</label><br>
+                <label for=""><input type="radio"name="juqin">须弥</label><br>
+                <label for=""><input type="radio"name="juqin">枫丹</label><br>
+                <br>
+				<li>您喜欢下列那些原神角色？</li>
+				<label for=""><input type="checkbox"name="character">雷神</label><br>
+				<label for=""><input type="checkbox"name="character">钟离</label><br>
+				<label for=""><input type="checkbox"name="character">八重神子</label><br>
+				<label for=""><input type="checkbox"name="character">艾尔海森</label><br>
+				<label for=""><input type="checkbox"name="character">夜兰</label><br>
+				<label for=""><input type="checkbox"name="character">甘雨</label><br>
+				<label for=""><input type="checkbox"name="character">刻晴</label><br>
+				<label for=""><input type="checkbox"name="character">宵宫</label><br>
+				<label for=""><input type="checkbox"name="character">枫原万叶</label><br>
+				<label for=""><input type="checkbox"name="character">班尼特</label><br>
+				<br>
+				<li>您会向身边的人推荐这款游戏吗？</li>
+				<label for=""><input type="radio"name="nnn">不会</label><br>
+				<label for=""><input type="radio"name="nnn">可能会</label><br>
+				<label for=""><input type="radio"name="nnn">必须的，大力推荐</label><br>
+				<br>
+				<li>您对原神这款游戏有怎样的看法？</li>
+				<textarea rows="10" cols="15">请输入文字.....</textarea>
+			</ol>
+			<input type="submit" value="提交" name="submit" id="submit">
+			<input type="reset"value="重置" name="reset" id="reset">
+		</form>
+	</div>
+</body>
+</html>
